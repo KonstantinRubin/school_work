@@ -25,3 +25,8 @@ git show HEAD
 //revrse changes from the commit
 git checkout HEAD filename
 
+//delete the file from the list of changes to be committed 
+git reset HEAD filename
+
+//get back in time to the specific commit
+git reset <7 chars of the SHA we reset to>
