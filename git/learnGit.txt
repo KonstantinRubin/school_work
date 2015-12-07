@@ -19,3 +19,9 @@ git remote add original https://...
 //push the files from staging area to the repository
 git push origin master
 
+//show the extensive info about the commit you are using
+git show HEAD
+
+//revrse changes from the commit
+git checkout HEAD filename
+
