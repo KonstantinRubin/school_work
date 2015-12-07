@@ -1,0 +1,21 @@
+//create a new Git repository
+git init
+
+//add a file or directory to a staging area
+git add filename/folder/.
+
+//display the difference between the local repo and stagin area
+git diff
+
+//store files in the local reposlitory
+git commit "text message"
+
+//see the commited files
+git log
+
+//connect newly created repo with server
+git remote add original https://...
+
+//push the files from staging area to the repository
+git push origin master
+
